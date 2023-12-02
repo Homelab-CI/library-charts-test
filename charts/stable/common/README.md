@@ -2,9 +2,9 @@
 
 ![Version: 4.5.2](https://img.shields.io/badge/Version-4.5.2-informational?style=flat-square) ![Type: library](https://img.shields.io/badge/Type-library-informational?style=flat-square)
 
-Function library for k8s-at-home charts
+Function library for homelab-ci charts
 
-Since a lot of the k8s-at-home charts follow a similar pattern, this library was built to reduce maintenance cost between the charts that use it and try achieve a goal of being DRY.
+Since a lot of the homelab-ci charts follow a similar pattern, this library was built to reduce maintenance cost between the charts that use it and try achieve a goal of being DRY.
 
 ## Requirements
 
@@ -30,7 +30,7 @@ Include this chart as a dependency in your `Chart.yaml` e.g.
 dependencies:
 - name: common
   version: 4.5.1
-  repository: https://k8s-at-home.com/charts/
+  repository: https://github.com/homelab-ci/ezUxewsl/
 ```
 
 For more information, take a look at the [Docs](http://docs.k8s-at-home.com/our-helm-charts/common-library/).
@@ -45,7 +45,7 @@ N/A
 
 ## Values
 
-**Important**: When deploying an application Helm chart you can add more values from our common library chart [here](https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common)
+**Important**: When deploying an application Helm chart you can add more values from our common library chart [here](https://github.com/k8s-at-home/library-charts/tree/master/charts/stable/common)
 
 | Key | Type | Default | Description |
 |-----|------|---------|-------------|
