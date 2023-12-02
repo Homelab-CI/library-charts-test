@@ -6,7 +6,7 @@ kubeVersion: ">=1.16.0-0"
 keywords:
 - homelab-ci
 - common
-home: https://github.com/homelab-ci/library-ezUxewsl/tree/main/stable/common-test
+home: https://github.com/homelab-ci/library-ezUxewsl/tree/master/stable/common-test
 maintainers:
 - name: sswensen
   email: hello@scottswensen.com
