@@ -45,7 +45,7 @@ N/A
 
 ## Values
 
-**Important**: When deploying an application Helm chart you can add more values from our common library chart [here](https://github.com/homelab-ci/library-charts/tree/master/charts/stable/common)
+**Important**: When deploying an application Helm chart you can add more values from our common library chart [here](https://github.com/homelab-ci/library-ezUxewsl/tree/master/charts/stable/common)
 
 | Key | Type | Default | Description |
 |-----|------|---------|-------------|
