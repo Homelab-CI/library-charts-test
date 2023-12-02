@@ -74,11 +74,11 @@ jobs:
             echo "Rendering README for chart ${i}"
             IFS='/' read -r -a chart_parts <<< "$i"
             if [ -f "charts/${chart_parts[0]}"/"${chart_parts[1]}/Chart.yaml" ]; then
-              echo "${chart_parts[0]}, ${chart_parts[1]}"
               ./hack/gen-helm-docs.sh "${chart_parts[0]}" "${chart_parts[1]}"
             fi
             echo ""
         done
+        git status
 
     - name: Create commit
       if: steps.filter.outputs.addedOrModified == 'true'
