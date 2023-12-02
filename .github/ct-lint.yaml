@@ -1,0 +1,8 @@
+remote: origin
+target-branch: main
+helm-extra-args: --timeout 600s
+chart-dirs:
+  - charts/incubator
+  - charts/stable
+chart-repos:
+  - homelab-ci-libraries=https://homelab-ci.gitlab.io/library-ezUxewsl
