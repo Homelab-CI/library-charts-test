@@ -28,15 +28,15 @@ dependency on what we call the `common` library.
 ## Changelog
 
 To view the changelog for the common library see
-[here](https://github.com/k8s-at-home/library-charts/tree/master/charts/stable/common#changelog).
+[here](https://github.com/homelab-ci/library-charts/tree/master/charts/stable/common#changelog).
 
 ## Support
 
 We have a few outlets for getting support with our projects:
 
-- Visit our [Docs](https://docs.k8s-at-home.com/).
-- Bugs or feature requests should be opened in an [issue](https://github.com/k8s-at-home/library-charts/issues/new/choose).
-- Questions or comments should be discussed in our [Discord](https://discord.gg/sTMX7Vh) or via [GitHub discussions](https://github.com/k8s-at-home/organization/discussions).
+- Visit our [Docs](https://docs.homelab-ci.com/).
+- Bugs or feature requests should be opened in an [issue](https://github.com/homelab-ci/library-charts/issues/new/choose).
+- Questions or comments should be discussed in our [Discord](https://discord.gg/sTMX7Vh) or via [GitHub discussions](https://github.com/homelab-ci/organization/discussions).
 
 ## Contributors ✨
 

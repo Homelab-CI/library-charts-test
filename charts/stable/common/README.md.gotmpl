@@ -51,7 +51,7 @@ Read through the [values.yaml](./values.yaml) file. It has several commented out
 {{- define "custom.valuesSection" -}}
 ## Values
 
-**Important**: When deploying an application Helm chart you can add more values from our common library chart [here](https://github.com/k8s-at-home/library-charts/tree/master/charts/stable/common)
+**Important**: When deploying an application Helm chart you can add more values from our common library chart [here](https://github.com/homelab-ci/library-charts/tree/master/charts/stable/common)
 
 {{ template "chart.valuesTable" . }}
 {{- end -}}
@@ -59,9 +59,9 @@ Read through the [values.yaml](./values.yaml) file. It has several commented out
 {{- define "custom.support" -}}
 ## Support
 
-- See the [Docs](https://docs.k8s-at-home.com/our-helm-charts/getting-started/)
-- Open an [issue](https://github.com/k8s-at-home/charts/issues/new/choose)
-- Ask a [question](https://github.com/k8s-at-home/organization/discussions)
+- See the [Docs](https://docs.homelab-ci.com/our-helm-charts/getting-started/)
+- Open an [issue](https://github.com/homelab-ci/charts/issues/new/choose)
+- Ask a [question](https://github.com/homelab-ci/organization/discussions)
 - Join our [Discord](https://discord.gg/sTMX7Vh) community
 {{- end -}}
 
