@@ -75,9 +75,9 @@ jobs:
             IFS='/' read -r -a chart_parts <<< "$i"
             if [ -f "charts/${chart_parts[0]}"/"${chart_parts[1]}/Chart.yaml" ]; then
               ./hack/gen-helm-docs.sh "${chart_parts[0]}" "${chart_parts[1]}"
+              cat $i
             fi
             echo ""
-            cat $i
         done
 
     - name: Create commit
