@@ -30,7 +30,7 @@ Include this chart as a dependency in your `Chart.yaml` e.g.
 dependencies:
 - name: common
   version: 4.5.1
-  repository: https://homelab-ci.github.io/ezUxewsl/
+  repository: https://k8s-at-home.com/charts/
 ```
 
 For more information, take a look at the [Docs](http://docs.k8s-at-home.com/our-helm-charts/common-library/).
@@ -45,7 +45,7 @@ N/A
 
 ## Values
 
-**Important**: When deploying an application Helm chart you can add more values from our common library chart [here](https://github.com/k8s-at-home/library-charts/tree/master/charts/stable/common)
+**Important**: When deploying an application Helm chart you can add more values from our common library chart [here](https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common)
 
 | Key | Type | Default | Description |
 |-----|------|---------|-------------|
