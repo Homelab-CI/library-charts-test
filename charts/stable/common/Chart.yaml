@@ -1,13 +1,17 @@
 apiVersion: v2
 name: common
-description: Function library for homelab-ci charts
+description: Function library for k8s-at-home charts
 type: library
-version: 0.0.3
+version: 4.5.2
 kubeVersion: ">=1.16.0-0"
 keywords:
-  - homelab-ci
+  - k8s-at-home
   - common
-home: https://github.com/homelab-ci/library-ezUxewsl/tree/master/stable/common
+home: https://github.com/k8s-at-home/library-charts/tree/main/stable/common
 maintainers:
-  - name: sswensn
-    email: hello@scottswensen.com
+  - name: bjw-s
+    email: me@bjw-s.dev
+  - name: onedr0p
+    email: devin.kray@gmail.com
+  - name: dirtycajunrice
+    email: nick@cajun.pro
